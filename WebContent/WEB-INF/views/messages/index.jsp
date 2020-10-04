@@ -8,7 +8,7 @@
             </div>
         </c:if>
 
-        <h2>メッセージ一覧</h2>
+        <h2>スケジュール一覧</h2>
         <ul>
             <c:forEach var="message" items="${tasks}">
                 <li>
@@ -33,7 +33,7 @@
                 </c:choose>
             </c:forEach>
         </div>
-        <p><a href="${pageContext.request.contextPath}/new">新規メッセージの投稿</a></p>
+        <p><a href="${pageContext.request.contextPath}/new">新規スケジュール</a></p>
 
     </c:param>
 </c:import>
